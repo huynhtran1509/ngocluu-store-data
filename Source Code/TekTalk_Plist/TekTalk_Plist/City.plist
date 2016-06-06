@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CITY</key>
+		<string>Ha Noi</string>
+		<key>ZIP_CODE</key>
+		<string>100000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Ho Chi Minh</string>
+		<key>ZIP_CODE</key>
+		<string>700000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>An Giang</string>
+		<key>ZIP_CODE</key>
+		<string>880000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Bà Rịa Vũng Tàu</string>
+		<key>ZIP_CODE</key>
+		<string>790000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Bạc Liêu</string>
+		<key>ZIP_CODE</key>
+		<string>960000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Bắc Giang</string>
+		<key>ZIP_CODE</key>
+		<string>230000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Bắc Ninh</string>
+		<key>ZIP_CODE</key>
+		<string>220000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Lạng Sơn</string>
+		<key>ZIP_CODE</key>
+		<string>240000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Lâm Đồng</string>
+		<key>ZIP_CODE</key>
+		<string>670000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Yên Bái</string>
+		<key>ZIP_CODE</key>
+		<string>320000</string>
+	</dict>
+	<dict>
+		<key>CITY</key>
+		<string>Trà Vinh</string>
+		<key>ZIP_CODE</key>
+		<string>940000</string>
+	</dict>
+</array>
+</plist>

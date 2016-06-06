@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D921B3741D01E03300335264 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D921B3731D01E03300335264 /* Keychain.m */; };
+		D921B3781D01E73C00335264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D921B3771D01E73C00335264 /* Images.xcassets */; };
+		D97139921D0179400010C1FB /* NSUserDefaults+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = D97139911D0179400010C1FB /* NSUserDefaults+Setting.m */; };
+		D97139A61D018CBF0010C1FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97139991D018CBF0010C1FB /* AppDelegate.m */; };
+		D97139A81D018CBF0010C1FB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D971399F1D018CBF0010C1FB /* BaseViewController.m */; };
+		D97139A91D018CBF0010C1FB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97139A11D018CBF0010C1FB /* LoginViewController.m */; };
+		D97139AA1D018CBF0010C1FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97139A31D018CBF0010C1FB /* MainViewController.m */; };
+		D97139AB1D018CBF0010C1FB /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97139A51D018CBF0010C1FB /* SettingViewController.m */; };
+		D9919E2C1D00FDF000B73F95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9919E2B1D00FDF000B73F95 /* main.m */; };
+		D9919E351D00FDF000B73F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9919E331D00FDF000B73F95 /* Main.storyboard */; };
+		D9919E3A1D00FDF000B73F95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9919E381D00FDF000B73F95 /* LaunchScreen.xib */; };
+		D9919E461D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9919E451D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9919E401D00FDF100B73F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9919E1E1D00FDF000B73F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9919E251D00FDF000B73F95;
+			remoteInfo = TekTalk_NSUserDefaults;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D921B3721D01E03300335264 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		D921B3731D01E03300335264 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		D921B3771D01E73C00335264 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D97139901D0179400010C1FB /* NSUserDefaults+Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Setting.h"; sourceTree = "<group>"; };
+		D97139911D0179400010C1FB /* NSUserDefaults+Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Setting.m"; sourceTree = "<group>"; };
+		D97139981D018CBF0010C1FB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97139991D018CBF0010C1FB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D971399B1D018CBF0010C1FB /* AppSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSetting.h; sourceTree = "<group>"; };
+		D971399C1D018CBF0010C1FB /* AppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSetting.m; sourceTree = "<group>"; };
+		D971399E1D018CBF0010C1FB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D971399F1D018CBF0010C1FB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D97139A01D018CBF0010C1FB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D97139A11D018CBF0010C1FB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D97139A21D018CBF0010C1FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D97139A31D018CBF0010C1FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D97139A41D018CBF0010C1FB /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D97139A51D018CBF0010C1FB /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D97139C51D018DA00010C1FB /* TekTalk_NSUserDefaults copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TekTalk_NSUserDefaults copy-Info.plist"; path = "/Users/luu/Desktop/TekTalk/TekTalk_NSUserDefaults/TekTalk_NSUserDefaults copy-Info.plist"; sourceTree = "<absolute>"; };
+		D9919E261D00FDF000B73F95 /* NSUserDefaults_Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUserDefaults_Ex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9919E2A1D00FDF000B73F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9919E2B1D00FDF000B73F95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9919E341D00FDF000B73F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9919E391D00FDF000B73F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D9919E3F1D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekTalk_NSUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9919E441D00FDF100B73F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9919E451D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekTalk_NSUserDefaultsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9919E231D00FDF000B73F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9919E3C1D00FDF100B73F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D921B3711D01E03300335264 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				D921B3721D01E03300335264 /* Keychain.h */,
+				D921B3731D01E03300335264 /* Keychain.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		D971398B1D01783D0010C1FB /* NSUserDefaults+Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D97139901D0179400010C1FB /* NSUserDefaults+Setting.h */,
+				D97139911D0179400010C1FB /* NSUserDefaults+Setting.m */,
+			);
+			name = "NSUserDefaults+Setting";
+			sourceTree = "<group>";
+		};
+		D97139971D018CBF0010C1FB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D97139981D018CBF0010C1FB /* AppDelegate.h */,
+				D97139991D018CBF0010C1FB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D971399A1D018CBF0010C1FB /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				D971399B1D018CBF0010C1FB /* AppSetting.h */,
+				D971399C1D018CBF0010C1FB /* AppSetting.m */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
+		D971399D1D018CBF0010C1FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D971399E1D018CBF0010C1FB /* BaseViewController.h */,
+				D971399F1D018CBF0010C1FB /* BaseViewController.m */,
+				D97139A01D018CBF0010C1FB /* LoginViewController.h */,
+				D97139A11D018CBF0010C1FB /* LoginViewController.m */,
+				D97139A21D018CBF0010C1FB /* MainViewController.h */,
+				D97139A31D018CBF0010C1FB /* MainViewController.m */,
+				D97139A41D018CBF0010C1FB /* SettingViewController.h */,
+				D97139A51D018CBF0010C1FB /* SettingViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9919E1D1D00FDF000B73F95 = {
+			isa = PBXGroup;
+			children = (
+				D9919E281D00FDF000B73F95 /* TekTalk_NSUserDefaults */,
+				D9919E421D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests */,
+				D9919E271D00FDF000B73F95 /* Products */,
+				D97139C51D018DA00010C1FB /* TekTalk_NSUserDefaults copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		D9919E271D00FDF000B73F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9919E261D00FDF000B73F95 /* NSUserDefaults_Ex.app */,
+				D9919E3F1D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9919E281D00FDF000B73F95 /* TekTalk_NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				D97139971D018CBF0010C1FB /* AppDelegate */,
+				D921B3711D01E03300335264 /* Keychain */,
+				D971398B1D01783D0010C1FB /* NSUserDefaults+Setting */,
+				D971399A1D018CBF0010C1FB /* AppSetting */,
+				D971399D1D018CBF0010C1FB /* ViewControllers */,
+				D9919E331D00FDF000B73F95 /* Main.storyboard */,
+				D9919E381D00FDF000B73F95 /* LaunchScreen.xib */,
+				D921B3771D01E73C00335264 /* Images.xcassets */,
+				D9919E291D00FDF000B73F95 /* Supporting Files */,
+			);
+			path = TekTalk_NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		D9919E291D00FDF000B73F95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9919E2A1D00FDF000B73F95 /* Info.plist */,
+				D9919E2B1D00FDF000B73F95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9919E421D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9919E451D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.m */,
+				D9919E431D00FDF100B73F95 /* Supporting Files */,
+			);
+			path = TekTalk_NSUserDefaultsTests;
+			sourceTree = "<group>";
+		};
+		D9919E431D00FDF100B73F95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9919E441D00FDF100B73F95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9919E251D00FDF000B73F95 /* NSUserDefaults_Ex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9919E491D00FDF100B73F95 /* Build configuration list for PBXNativeTarget "NSUserDefaults_Ex" */;
+			buildPhases = (
+				D9919E221D00FDF000B73F95 /* Sources */,
+				D9919E231D00FDF000B73F95 /* Frameworks */,
+				D9919E241D00FDF000B73F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSUserDefaults_Ex;
+			productName = TekTalk_NSUserDefaults;
+			productReference = D9919E261D00FDF000B73F95 /* NSUserDefaults_Ex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9919E3E1D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9919E4C1D00FDF100B73F95 /* Build configuration list for PBXNativeTarget "TekTalk_NSUserDefaultsTests" */;
+			buildPhases = (
+				D9919E3B1D00FDF100B73F95 /* Sources */,
+				D9919E3C1D00FDF100B73F95 /* Frameworks */,
+				D9919E3D1D00FDF100B73F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9919E411D00FDF100B73F95 /* PBXTargetDependency */,
+			);
+			name = TekTalk_NSUserDefaultsTests;
+			productName = TekTalk_NSUserDefaultsTests;
+			productReference = D9919E3F1D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9919E1E1D00FDF000B73F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = luu;
+				TargetAttributes = {
+					D9919E251D00FDF000B73F95 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D9919E3E1D00FDF100B73F95 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D9919E251D00FDF000B73F95;
+					};
+				};
+			};
+			buildConfigurationList = D9919E211D00FDF000B73F95 /* Build configuration list for PBXProject "TekTalk_NSUserDefaults" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9919E1D1D00FDF000B73F95;
+			productRefGroup = D9919E271D00FDF000B73F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9919E251D00FDF000B73F95 /* NSUserDefaults_Ex */,
+				D9919E3E1D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9919E241D00FDF000B73F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921B3781D01E73C00335264 /* Images.xcassets in Resources */,
+				D9919E351D00FDF000B73F95 /* Main.storyboard in Resources */,
+				D9919E3A1D00FDF000B73F95 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9919E3D1D00FDF100B73F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9919E221D00FDF000B73F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9919E2C1D00FDF000B73F95 /* main.m in Sources */,
+				D97139A81D018CBF0010C1FB /* BaseViewController.m in Sources */,
+				D97139A91D018CBF0010C1FB /* LoginViewController.m in Sources */,
+				D97139921D0179400010C1FB /* NSUserDefaults+Setting.m in Sources */,
+				D97139AA1D018CBF0010C1FB /* MainViewController.m in Sources */,
+				D97139A61D018CBF0010C1FB /* AppDelegate.m in Sources */,
+				D97139AB1D018CBF0010C1FB /* SettingViewController.m in Sources */,
+				D921B3741D01E03300335264 /* Keychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9919E3B1D00FDF100B73F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9919E461D00FDF100B73F95 /* TekTalk_NSUserDefaultsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9919E411D00FDF100B73F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9919E251D00FDF000B73F95 /* NSUserDefaults_Ex */;
+			targetProxy = D9919E401D00FDF100B73F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9919E331D00FDF000B73F95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9919E341D00FDF000B73F95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9919E381D00FDF000B73F95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9919E391D00FDF000B73F95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9919E471D00FDF100B73F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9919E481D00FDF100B73F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9919E4A1D00FDF100B73F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekTalk_NSUserDefaults/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9919E4B1D00FDF100B73F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekTalk_NSUserDefaults/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9919E4D1D00FDF100B73F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekTalk_NSUserDefaultsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekTalk_NSUserDefaults.app/TekTalk_NSUserDefaults";
+			};
+			name = Debug;
+		};
+		D9919E4E1D00FDF100B73F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekTalk_NSUserDefaultsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekTalk_NSUserDefaults.app/TekTalk_NSUserDefaults";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9919E211D00FDF000B73F95 /* Build configuration list for PBXProject "TekTalk_NSUserDefaults" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9919E471D00FDF100B73F95 /* Debug */,
+				D9919E481D00FDF100B73F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9919E491D00FDF100B73F95 /* Build configuration list for PBXNativeTarget "NSUserDefaults_Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9919E4A1D00FDF100B73F95 /* Debug */,
+				D9919E4B1D00FDF100B73F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9919E4C1D00FDF100B73F95 /* Build configuration list for PBXNativeTarget "TekTalk_NSUserDefaultsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9919E4D1D00FDF100B73F95 /* Debug */,
+				D9919E4E1D00FDF100B73F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9919E1E1D00FDF000B73F95 /* Project object */;
+}

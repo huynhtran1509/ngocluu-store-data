@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D95D880B1D025ABA001078F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D880A1D025ABA001078F0 /* main.m */; };
+		D95D88111D025ABA001078F0 /* TekTalk_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D95D880F1D025ABA001078F0 /* TekTalk_CoreData.xcdatamodeld */; };
+		D95D88171D025ABA001078F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95D88151D025ABA001078F0 /* Main.storyboard */; };
+		D95D88191D025ABA001078F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95D88181D025ABA001078F0 /* Images.xcassets */; };
+		D95D881C1D025ABA001078F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95D881A1D025ABA001078F0 /* LaunchScreen.xib */; };
+		D95D88281D025ABA001078F0 /* TekTalk_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D88271D025ABA001078F0 /* TekTalk_CoreDataTests.m */; };
+		D95D88381D026700001078F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D88331D026700001078F0 /* AppDelegate.m */; };
+		D95D883F1D02682C001078F0 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D883E1D02682C001078F0 /* User.m */; };
+		D95D88421D0269C9001078F0 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D88411D0269C9001078F0 /* UsersViewController.m */; };
+		D95D88481D0274E4001078F0 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D88471D0274E4001078F0 /* Post.m */; };
+		D95D884E1D028A65001078F0 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D884D1D028A64001078F0 /* PostViewController.m */; };
+		D95D88521D028F73001078F0 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D95D88511D028F73001078F0 /* PostTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D95D88221D025ABA001078F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95D87FD1D025ABA001078F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95D88041D025ABA001078F0;
+			remoteInfo = TekTalk_CoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D95D88051D025ABA001078F0 /* TekTalk_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekTalk_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95D88091D025ABA001078F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95D880A1D025ABA001078F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D95D88101D025ABA001078F0 /* TekTalk_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TekTalk_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		D95D88161D025ABA001078F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95D88181D025ABA001078F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D95D881B1D025ABA001078F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D95D88211D025ABA001078F0 /* TekTalk_CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekTalk_CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95D88261D025ABA001078F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95D88271D025ABA001078F0 /* TekTalk_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TekTalk_CoreDataTests.m; sourceTree = "<group>"; };
+		D95D88321D026700001078F0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D95D88331D026700001078F0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D95D883D1D02682C001078F0 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D95D883E1D02682C001078F0 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D95D88401D0269C9001078F0 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		D95D88411D0269C9001078F0 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		D95D88461D0274E4001078F0 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		D95D88471D0274E4001078F0 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		D95D884C1D028A64001078F0 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		D95D884D1D028A64001078F0 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		D95D88501D028F73001078F0 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		D95D88511D028F73001078F0 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95D88021D025ABA001078F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95D881E1D025ABA001078F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D95D87FC1D025ABA001078F0 = {
+			isa = PBXGroup;
+			children = (
+				D95D88071D025ABA001078F0 /* TekTalk_CoreData */,
+				D95D88241D025ABA001078F0 /* TekTalk_CoreDataTests */,
+				D95D88061D025ABA001078F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D95D88061D025ABA001078F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88051D025ABA001078F0 /* TekTalk_CoreData.app */,
+				D95D88211D025ABA001078F0 /* TekTalk_CoreDataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95D88071D025ABA001078F0 /* TekTalk_CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88311D026700001078F0 /* AppDelegate */,
+				D95D884F1D028F5D001078F0 /* Views */,
+				D95D88341D026700001078F0 /* Models */,
+				D95D88351D026700001078F0 /* ViewControllers */,
+				D95D88151D025ABA001078F0 /* Main.storyboard */,
+				D95D88181D025ABA001078F0 /* Images.xcassets */,
+				D95D881A1D025ABA001078F0 /* LaunchScreen.xib */,
+				D95D880F1D025ABA001078F0 /* TekTalk_CoreData.xcdatamodeld */,
+				D95D88081D025ABA001078F0 /* Supporting Files */,
+			);
+			path = TekTalk_CoreData;
+			sourceTree = "<group>";
+		};
+		D95D88081D025ABA001078F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88091D025ABA001078F0 /* Info.plist */,
+				D95D880A1D025ABA001078F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D95D88241D025ABA001078F0 /* TekTalk_CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88271D025ABA001078F0 /* TekTalk_CoreDataTests.m */,
+				D95D88251D025ABA001078F0 /* Supporting Files */,
+			);
+			path = TekTalk_CoreDataTests;
+			sourceTree = "<group>";
+		};
+		D95D88251D025ABA001078F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88261D025ABA001078F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D95D88311D026700001078F0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88321D026700001078F0 /* AppDelegate.h */,
+				D95D88331D026700001078F0 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D95D88341D026700001078F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D95D883D1D02682C001078F0 /* User.h */,
+				D95D883E1D02682C001078F0 /* User.m */,
+				D95D88461D0274E4001078F0 /* Post.h */,
+				D95D88471D0274E4001078F0 /* Post.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D95D88351D026700001078F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88401D0269C9001078F0 /* UsersViewController.h */,
+				D95D88411D0269C9001078F0 /* UsersViewController.m */,
+				D95D884C1D028A64001078F0 /* PostViewController.h */,
+				D95D884D1D028A64001078F0 /* PostViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D95D884F1D028F5D001078F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D95D88501D028F73001078F0 /* PostTableViewCell.h */,
+				D95D88511D028F73001078F0 /* PostTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D95D88041D025ABA001078F0 /* TekTalk_CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95D882B1D025ABA001078F0 /* Build configuration list for PBXNativeTarget "TekTalk_CoreData" */;
+			buildPhases = (
+				D95D88011D025ABA001078F0 /* Sources */,
+				D95D88021D025ABA001078F0 /* Frameworks */,
+				D95D88031D025ABA001078F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekTalk_CoreData;
+			productName = TekTalk_CoreData;
+			productReference = D95D88051D025ABA001078F0 /* TekTalk_CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D95D88201D025ABA001078F0 /* TekTalk_CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95D882E1D025ABA001078F0 /* Build configuration list for PBXNativeTarget "TekTalk_CoreDataTests" */;
+			buildPhases = (
+				D95D881D1D025ABA001078F0 /* Sources */,
+				D95D881E1D025ABA001078F0 /* Frameworks */,
+				D95D881F1D025ABA001078F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95D88231D025ABA001078F0 /* PBXTargetDependency */,
+			);
+			name = TekTalk_CoreDataTests;
+			productName = TekTalk_CoreDataTests;
+			productReference = D95D88211D025ABA001078F0 /* TekTalk_CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95D87FD1D025ABA001078F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = luu;
+				TargetAttributes = {
+					D95D88041D025ABA001078F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D95D88201D025ABA001078F0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D95D88041D025ABA001078F0;
+					};
+				};
+			};
+			buildConfigurationList = D95D88001D025ABA001078F0 /* Build configuration list for PBXProject "TekTalk_CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D95D87FC1D025ABA001078F0;
+			productRefGroup = D95D88061D025ABA001078F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D95D88041D025ABA001078F0 /* TekTalk_CoreData */,
+				D95D88201D025ABA001078F0 /* TekTalk_CoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95D88031D025ABA001078F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95D88171D025ABA001078F0 /* Main.storyboard in Resources */,
+				D95D881C1D025ABA001078F0 /* LaunchScreen.xib in Resources */,
+				D95D88191D025ABA001078F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95D881F1D025ABA001078F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95D88011D025ABA001078F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95D884E1D028A65001078F0 /* PostViewController.m in Sources */,
+				D95D883F1D02682C001078F0 /* User.m in Sources */,
+				D95D88481D0274E4001078F0 /* Post.m in Sources */,
+				D95D88111D025ABA001078F0 /* TekTalk_CoreData.xcdatamodeld in Sources */,
+				D95D88421D0269C9001078F0 /* UsersViewController.m in Sources */,
+				D95D880B1D025ABA001078F0 /* main.m in Sources */,
+				D95D88381D026700001078F0 /* AppDelegate.m in Sources */,
+				D95D88521D028F73001078F0 /* PostTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95D881D1D025ABA001078F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95D88281D025ABA001078F0 /* TekTalk_CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D95D88231D025ABA001078F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95D88041D025ABA001078F0 /* TekTalk_CoreData */;
+			targetProxy = D95D88221D025ABA001078F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D95D88151D025ABA001078F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95D88161D025ABA001078F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D95D881A1D025ABA001078F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95D881B1D025ABA001078F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95D88291D025ABA001078F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D95D882A1D025ABA001078F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95D882C1D025ABA001078F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekTalk_CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D95D882D1D025ABA001078F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TekTalk_CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D95D882F1D025ABA001078F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekTalk_CoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekTalk_CoreData.app/TekTalk_CoreData";
+			};
+			name = Debug;
+		};
+		D95D88301D025ABA001078F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TekTalk_CoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TekTalk_CoreData.app/TekTalk_CoreData";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95D88001D025ABA001078F0 /* Build configuration list for PBXProject "TekTalk_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95D88291D025ABA001078F0 /* Debug */,
+				D95D882A1D025ABA001078F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95D882B1D025ABA001078F0 /* Build configuration list for PBXNativeTarget "TekTalk_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95D882C1D025ABA001078F0 /* Debug */,
+				D95D882D1D025ABA001078F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D95D882E1D025ABA001078F0 /* Build configuration list for PBXNativeTarget "TekTalk_CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95D882F1D025ABA001078F0 /* Debug */,
+				D95D88301D025ABA001078F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D95D880F1D025ABA001078F0 /* TekTalk_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D95D88101D025ABA001078F0 /* TekTalk_CoreData.xcdatamodel */,
+			);
+			currentVersion = D95D88101D025ABA001078F0 /* TekTalk_CoreData.xcdatamodel */;
+			path = TekTalk_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D95D87FD1D025ABA001078F0 /* Project object */;
+}
